@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(180deg, #b3e5fc, #e3f2fd);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#game-area {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  margin: 20px auto;
+  background: #fff;
+  border: 3px solid #1976d2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #90caf9;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #0d47a1;
+}
+
+#ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #f44336;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#score {
+  font-size: 20px;
+  color: #0d47a1;
+  margin-top: 10px;
+}
+
+#message {
+  font-size: 22px;
+  color: #00796b;
+  margin-top: 15px;
+  font-weight: bold;
+}
